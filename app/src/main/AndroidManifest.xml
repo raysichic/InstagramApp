@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.koddev.instagramtest">
+    package="com.koddev.hmgram">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -12,26 +12,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".StartActivity">
+        <activity android:name="com.koddev.hmgram.StartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".PostActivity" />
+        <activity android:name="com.koddev.hmgram.LoginActivity" />
+        <activity android:name="com.koddev.hmgram.RegisterActivity" />
+        <activity android:name="com.koddev.hmgram.MainActivity" />
+        <activity android:name="com.koddev.hmgram.PostActivity" />
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />
-        <activity android:name=".CommentsActivity" />
-        <activity android:name=".OptionsActivity" />
-        <activity android:name=".EditProfileActivity" />
-        <activity android:name=".FollowersActivity" />
-        <activity android:name=".StoryActivity" />
-        <activity android:name=".AddStoryActivity"></activity>
+        <activity android:name="com.koddev.hmgram.CommentsActivity" />
+        <activity android:name="com.koddev.hmgram.OptionsActivity" />
+        <activity android:name="com.koddev.hmgram.EditProfileActivity" />
+        <activity android:name="com.koddev.hmgram.FollowersActivity" />
+        <activity android:name="com.koddev.hmgram.StoryActivity" />
+        <activity android:name="com.koddev.hmgram.AddStoryActivity"></activity>
     </application>
 
 </manifest>
